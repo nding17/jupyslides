@@ -47,4 +47,4 @@ You can install the package by typing this command in your terminal: **```pip in
   ```python
   js.slideshow(min_zoom=0.2, max_zoom=3, step_zoom=0.1)
   ```
-  That's it for the tutorial, if you have any questions, please contact [me](mailto:nding17@outlook.com).
+  That's it for the tutorial, if you have any questions, please [contact](mailto:nding17@outlook.com) me.
