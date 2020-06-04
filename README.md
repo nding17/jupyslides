@@ -30,9 +30,7 @@ js = jupyslides(slides_path)
   
 You do have some level of control over the default size of the width of your slide, as well as the ratio between the height and width of your slides, you can make such customization by doing the following
 ```python
-js = jupyslides(slides_path, 
-                default_width=1000, 
-                height_to_width_ratio=12/30)
+js = jupyslides(slides_path, default_width=1000, height_to_width_ratio=12/30)
 ```
 
 ### Step 3 - Slideshow
