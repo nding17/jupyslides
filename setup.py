@@ -1,22 +1,22 @@
 from distutils.core import setup
 from os import path # read the contents of your README file
 
-this_directory = path.abspath(path.dirname(__file__))
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
+long_description = """
+For full documentation, please check the Homepage
+"""
 
 setup(
   name = 'jupyslides',         
   packages = ['jupyslides'],
-  version = '0.12',
+  version = '0.19',
   license = 'MIT',
   description = 'A jupyter notebook widget that allows you to create an embedded ppt slides',
-  long_description_content_type = 'text/markdown',
+  long_description_content_type = "text/markdown",
   long_description = long_description,
   author = 'Naili Ding',
   author_email = 'nding17@outlook.com',
   url = 'https://github.com/nding17/jupyslides',
-  download_url = 'https://github.com/nding17/jupyslides/archive/v_012.tar.gz',
+  download_url = 'https://github.com/nding17/jupyslides/archive/v_013.tar.gz',
   keywords = [
     'jupyter notebook', 
     'embedded ppt', 
