@@ -19,7 +19,7 @@ You can install the package by typing this command in your terminal: **```pip in
   
   Below is the quickest way to initiate your slides 
   ```python
-  import jupyslides
+  from jupyslides import jupyslides
   ```
   You can adhere to the default dimension of your slides, which is ```width = 720px``` and ```height_to_width_ratio = 810/1080```
   ```python
