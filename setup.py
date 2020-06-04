@@ -9,7 +9,7 @@ setup(
   author = 'Naili Ding',
   author_email = 'nding17@outlook.com',
   url = 'https://github.com/nding17/jupyslides',
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
+  download_url = 'https://github.com/nding17/jupyslides/archive/v_01.tar.gz',
   keywords = [
     'jupyter notebook', 
     'embedded ppt', 
@@ -17,7 +17,6 @@ setup(
   ],
   install_requires = [
     'ipywidgets',
-    'os',
     'natsort',
     'IPython',
   ],
