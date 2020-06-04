@@ -9,7 +9,9 @@ You can install the package by typing this command in your terminal: **```pip in
 * ### Step 1 - Export the PPT in image format 
   The essential mechanism of this package is that you are displaying images instead of displaying the PPT itself. Therefore, the most critical step is to export your PPT in image format. 
   
-  Luckily, if you are working with Microsoft PowerPoint, you can export your PPT internally by clicking the following tabs in your PPT menu: ```File > Export... > File Format > PNG > Save Every Slide > Export```. By doing so, PowerPoint will automatically generate a folder whose name is the same as your PPT file name. Inside this folder, each slide is exported with a ```.png``` extension. <font color='blue'>When exporting images, to maximize resolution, make ```Width=2999```</font>.
+  Luckily, if you are working with Microsoft PowerPoint, you can export your PPT internally by clicking the following tabs in your PPT menu: ```File > Export... > File Format > PNG > Save Every Slide > Export```. By doing so, PowerPoint will automatically generate a folder whose name is the same as your PPT file name. Inside this folder, each slide is exported with a ```.png``` extension. 
+  
+  When exporting images, to maximize **resolution**, make **```Width=2999```**.
   
   Notice that, the name of each image file ends with a number - this is critical as it tells the tool the sequence of the slides, for example, ```Slide1.png```, ```Slide2.png```, ```Slide3.png``` etc. The slides will then be sorted in ascending order. 
   
@@ -45,4 +47,4 @@ You can install the package by typing this command in your terminal: **```pip in
   ```python
   js.slideshow(min_zoom=0.2, max_zoom=3, step_zoom=0.1)
   ```
-  That's it for the tutorial, if you have any questions, please contact [me](nding17@outlook.com).
+  That's it for the tutorial, if you have any questions, please contact [me](mailto:nding17@outlook.com).
