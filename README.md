@@ -15,10 +15,10 @@ You can install the package by typing this command in your terminal: **```pip in
   
   Notice that, the name of each image file ends with a number - this is critical as it tells the tool the sequence of the slides, for example, ```Slide1.png```, ```Slide2.png```, ```Slide3.png``` etc. The slides will then be sorted in ascending order. 
   
-  Under any circumstances that PowerPoint does not generate these numbers, please manually add the number at the end of the file. Any file without a number in the end will be IGNORED. If you are not working with Microsoft PowerPoint, please make sure that you have fulfilled the above requirements. 
+  Under any circumstances that PowerPoint does not generate these numbers, please manually add the number at the end of the file. Any file without a number in the end will be IGNORED. If you are not working with Microsoft PowerPoint, please make sure you have fulfilled the above requirements. 
   
 * ### Step 2 - Initialization
-  Starting from this step, you are assumed to have already exported your PPT in a folder with a bunch of images. Please make sure that you are aware of the path of this folder. If you are not sure where the folder is, you can ```cd``` into the PPT folder, and type the command ```pwd``` to check where it is located in your system. 
+  Starting from this step, you are assumed to have already exported your PPT in a folder with a bunch of images. Please make sure you are aware of the path of this folder. If you are not sure where the folder is, you can ```cd``` into the PPT folder, and type the command ```pwd``` to check where it is located in your system. 
   
   Below is the quickest way to initiate your slides 
   ```python
